@@ -1,0 +1,58 @@
+        .my-content {
+            position: absolute;
+            top: 44px;
+            bottom: 50px;
+            width: 100%;
+        }
+        
+        .category-left,
+        .category-right {
+            height: 100%;
+            position: relative;
+        }
+        
+        .category-left {
+            float: left;
+            width: 80px;
+        }
+        
+        .category-right {
+            margin-left: 90px;
+        }
+        
+        .links {
+            background-color: #fff;
+        }
+        
+        .links a {
+            display: block;
+            text-align: center;
+            height: 45px;
+            line-height: 45px;
+            border-bottom: 1px solid #e0e0e0;
+            border-right: 1px solid #e0e0e0;
+            color: black;
+        }
+        
+        .links a.active {
+            border-right: 1px solid transparent;
+            background-color: #efeff4;
+        }
+        
+        .brand-list {
+            background-color: #fff;
+            margin-top: 10px;
+        }
+        
+        .brand-list li {
+            float: left;
+            width: 33.3%;
+        }
+        
+        .brand-list li a img {
+            width: 100%;
+        }
+        
+        .brand-list li a p {
+            text-align: center;
+        }

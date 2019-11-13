@@ -1,0 +1,20 @@
+.mui-content {
+    background-color: #efeff4;
+}
+
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+
+.mui-table-view-cell p {
+    margin: 10px 0;
+}
+
+.concern {
+    display: flex;
+}
+
+.concern .item {
+    width: 25%;
+    text-align: center;
+}

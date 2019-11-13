@@ -1,0 +1,61 @@
+.cart-foot {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.cart-foot .settle {
+    background-color: orange;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.img-wrap {
+    width: 90px;
+    height: 90px;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    margin-left: 7px;
+}
+
+.item .mui-numbox {
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.price {
+    font-size: 14px;
+    color: rgb(255, 85, 0);
+}
+
+.mui-scroll-wrapper {
+    top: 44px;
+    bottom: 111px;
+}
+
+.cart-foot .delete {
+    border-color: red;
+    background-color: #fff;
+    color: red;
+    display: none;
+    border-radius: 20px;
+}

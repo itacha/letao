@@ -1,0 +1,169 @@
+html {
+    font-size: 50px;
+}
+
+* {
+    touch-action: pan-y;
+    margin: 0;
+    padding: 0;
+}
+
+.my-header {
+    background-color: rgb(18, 163, 213);
+}
+
+.my-header .mui-icon {
+    color: #fff;
+}
+
+.my-header .mui-title,
+.my-header .mui-icon-search {
+    color: #fff;
+}
+
+.my-footer {
+    background-color: #fff;
+}
+
+.my-footer .mui-tab-item {
+    color: #8f8f94;
+}
+
+.my-footer .mui-tab-item.mui-active {
+    color: orange;
+}
+
+.mui-content {
+    background-color: #fff;
+}
+
+.nav-list {
+    padding: 10px;
+}
+
+.nav-list a {
+    float: left;
+    width: 33.3%;
+}
+
+.nav-list a img {
+    width: 100%;
+    /* 清除图片之间的空隙 */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.brand {
+    padding: 0 10px;
+}
+
+.brand .list {
+    padding: 10px 0;
+}
+
+.brand .list li {
+    float: left;
+    width: 25%;
+}
+
+.brand .title {
+    width: 100%;
+}
+
+.list li a {
+    display: block;
+}
+
+.list li a img {
+    width: 100%;
+}
+
+.product {
+    margin: 0 10px;
+}
+
+.product .title {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.product .list li {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.product a {
+    display: block;
+    padding: 0 5px;
+    box-shadow: 0 0 5px #ccc;
+    overflow: hidden;
+}
+
+.product a img {
+    width: 100%;
+}
+
+.product .name {
+    line-height: 18px;
+    display: block;
+    color: #8f8f94;
+    text-align: center;
+    padding: 6px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.product p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.product p span:first-child {
+    color: #f30;
+    margin-left: 2px;
+}
+
+.product p span:last-child {
+    color: #ccc;
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+
+.product .buy-now {
+    background: #006699;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mui-toast-container {
+    bottom: 50% !important;
+    width: 180px;
+    font-size: 16px;
+}
+
+.getCode {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #006699;
+}
+
+.mui-scroll-wrapper {
+    top: 44px;
+    bottom: 50px;
+}

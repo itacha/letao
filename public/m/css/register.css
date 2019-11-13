@@ -1,0 +1,15 @@
+.register {
+    width: 100%;
+    padding: 10px;
+}
+
+.login-button {
+    padding: 10px;
+}
+
+.login-now {
+    display: block;
+    padding-right: 10px;
+    text-align: right;
+    margin-top: 20px;
+}

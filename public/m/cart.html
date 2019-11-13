@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="assets/mui/css/icons-extra.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav my-header">
+        <h1 class="mui-title">购物车</h1>
+        <a href="javascript:;" class="mui-pull-right manage" style="color: #fff;line-height: 44px;">管理</a>
+    </header>
+    <nav class="mui-bar mui-bar-tab footer my-footer">
+        <a class="mui-tab-item mui-active" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <div class="mui-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <div class="cart">
+
+                </div>
+            </div>
+        </div>
+        <div class="cart-foot">
+            <input type="checkbox" name="" id="" class="selectAll">全选
+            <input type="button" value="删除" class="mui-pull-right delete">
+            <input type="button" value="结算" class="settle mui-pull-right">
+            <span class="totalprice mui-pull-right">合计：<span class="price">￥0.00</span></span>
+        </div>
+    </div>
+</body>
+
+</html>

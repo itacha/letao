@@ -1,0 +1,163 @@
+body {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.detail-title {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.detail-size {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.detail-size .mui-icon {
+    font-size: 20px;
+}
+
+.detail-price {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.detail-price .new {
+    font-size: 24px;
+    color: #ea543d;
+    padding-right: 10px;
+}
+
+.detail-price .old {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.detail-num {
+    padding: 10px;
+}
+
+.detail-btn {
+    padding: 10px;
+}
+
+.detail-btn * {
+    display: inline-block;
+    width: 50%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+}
+
+.detail-btn a {
+    background: #fa672d;
+}
+
+.detail-btn span {
+    background-color: #991020;
+}
+
+.front {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    display: none;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #fff;
+    color: #333;
+    transition: all .3s;
+    border-radius: .013333rem .013333rem 0 0;
+}
+
+.front .mui-scroll-wrapper {
+    top: 84px;
+    bottom: 0;
+}
+
+.pro-sku span {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pro-sku span.active {
+    background-color: orange;
+}
+
+.img-wrap {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.front-img {
+    width: 100%;
+    height: 100%;
+}
+
+.pro-color,
+.pro-sku {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.pro-color a {
+    display: inline-block;
+    border: 1px solid #f5f5f5;
+    padding: 3px 12px;
+    border-radius: 8px;
+    border-color: #ff0036;
+    color: #ff0036;
+    background-color: #fff5f7;
+}
+
+.pro-color h2,
+.pro-sku h2 {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pro-color img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+.front-price {
+    font-size: 16px;
+    color: #ff0036;
+}
+
+.header {
+    position: relative;
+    padding: 10px 0 10px 126px;
+}
+
+.close-front {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 9999;
+}

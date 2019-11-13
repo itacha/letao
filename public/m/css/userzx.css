@@ -1,0 +1,83 @@
+.mui-content {
+    background-color: #efeff4;
+}
+
+.mui-content>.mui-table-view:first-child {
+    margin-top: 0;
+}
+
+.mui-table-view-cell p {
+    margin: 10px 0;
+}
+
+.concern,
+.order-info {
+    display: flex;
+}
+
+.concern {
+    margin-top: .133333rem;
+}
+
+.concern .item,
+.order-info .item {
+    width: 25%;
+    text-align: center;
+}
+
+.mui-content .account {
+    background-image: linear-gradient(to right, orange, orangered);
+    color: #fff;
+}
+
+.mui-content .account p {
+    color: #fff;
+}
+
+.userData img {
+    border-radius: 50%;
+}
+
+.order-info .item .mui-icon-extra {
+    color: orange;
+}
+
+.order-info {
+    padding-top: .2rem
+}
+
+.order-title {
+    font-size: 14px;
+    margin-bottom: .2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-title .mui-icon {
+    font-size: 12px;
+}
+
+.order {
+    margin: .266667rem;
+    border-radius: 20px;
+}
+
+.order::before,
+.order::after {
+    background-color: transparent;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+    content: '';
+}
+
+.userData .mui-icon-gear {
+    position: absolute;
+    right: 14px;
+}
+
+.order-title .mui-icon-arrowright {
+    position: absolute;
+    right: 6px;
+    top: 14px;
+}
